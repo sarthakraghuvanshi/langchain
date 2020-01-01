@@ -29,11 +29,11 @@ jobs:
             style
             revert
           requireScope: false
-          subjectPattern: ^[a-z].+[^.]$
+          subjectPattern: ^.+$
           subjectPatternError: >
             The PR title "{title}" does not follow conventional commit format.
 
-            Expected: <type>(<scope>): <lowercase description without trailing period>
+            Expected: <type>(<scope>): <description>
 
             Examples:
               feat(memory): add lancedb storage backend
